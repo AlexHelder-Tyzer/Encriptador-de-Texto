@@ -24,7 +24,7 @@ function Encriptar(fraseEncriptada){
 }
 
 function btnDesencriptar(){
-    const texto = Encriptar(campo_texto.value);
+    const texto = Desencriptar(campo_texto.value);
     campo_mensaje.value = texto;
 }
 
